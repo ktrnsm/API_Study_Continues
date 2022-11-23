@@ -1,0 +1,13 @@
+﻿DTO Patterns:
+public class CategoryDTO
+    {
+        public int ID { get; set; }
+        public string CategoryName { get; set; }
+        public string Description { get; set; }
+    }
+
+
+1_  api/Category/ListCategories ListCategories() Category info questioning action() url 
+as return List<CategoryDTO> pattern
+
+2_ api/Category/BringCategory/(id) Bring category as ID, return as CategoryDTO pattern.
